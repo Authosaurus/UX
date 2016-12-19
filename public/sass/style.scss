@@ -1,14 +1,14 @@
+@import 'contribute';
+
 
 .scrollit {
     overflow:scroll;
     height:237px;
 }
 
-body {
-  font-size: 40px;
-}
 nav {
   border-bottom: 1px solid #000;
+  padding: 40px;
 
   ul {
   min-width:100%;
@@ -62,11 +62,11 @@ $white: #FFF;
 
 .input{
   background-color: $white;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .input::-webkit-input-placeholder{
-    font-size: 24px;
+    font-size: 25px;
     color: black;
     padding-left: 7%;
 }
