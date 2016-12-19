@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link href='./sass/normalize.css' rel='stylesheet'>
+  <link href='./sass/style.css' rel='stylesheet'>
+
+</head>
+<body>
+  <nav id='nav-bar'>
+    <ul>
+      <li><a href="#"><img src='images/home.svg'></a></li>
+      <li>Harbingers of Hope</li>
+      <li><a href="logout">Logout</a></li>
+    </ul>
+  </nav>
+
+  <section class='container centered'>
+    <h1 class="title">Contribution details</h1>
+    <form> <!-- action="index.html" method="post"-->
+      <label class="label">Amount *</label>
+      <input type="text" class="input form_input" placeholder="£">
+
+      <label class="label">Card No. *</label>
+      <input type="text" class="input form_input" placeholder="xxxx-xxxx-xxxx-xxxx">
+
+      <label class="label">Card type *</label>
+      <!-- <input type="text" class="input form_input"> -->
+      <select class="input form_input">
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="xxx">xxx</option>
+        <option value="yyy">yyy</option>
+      </select>
+
+      <label class="label">CVV</label>
+      <input type="text" class="input form_input" placeholder="xxx">
+
+      <label class="label">Billing Address *</label>
+      <input type="text" class="input form_input" placeholder="100 small rd.">
+
+      <label class="label">Billing Address 2 *</label>
+      <input type="text" class="input form_input" placeholder="London, SE12 8HU">
+
+      <button class="btn">Contribute</button>
+    </form>
+  </section>
+
+</body>
+</html>
