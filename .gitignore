@@ -39,5 +39,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-public/sass/style.scss
-public/sass/style.css.map

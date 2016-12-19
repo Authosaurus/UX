@@ -2,9 +2,6 @@
   overflow: scroll;
   height: 237px; }
 
-body {
-  font-size: 40px; }
-
 nav {
   border-bottom: 1px solid #000; }
   nav ul {
@@ -14,11 +11,13 @@ nav {
     padding: 0px;
     margin: 0px; }
     nav ul li {
+      height: 80px;
       padding: 0px;
       display: inline-block;
       text-align: center;
       text-decoration: none;
-      transition: 0.3s; }
+      transition: 0.3s;
+      padding-top: 5%; }
       nav ul li li:hover {
         background-color: #555; }
 
@@ -83,7 +82,7 @@ tr:nth-child(even) {
   overflow: scroll;
   height: 100px; }
 
-body {
-  background-color: #ddd; }
+.title {
+  font-size: 5em; }
 
 /*# sourceMappingURL=style.css.map */
