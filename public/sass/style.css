@@ -5,4 +5,26 @@
 body {
   background-color: #ddd; }
 
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  background-color: #333; }
+  nav ul li {
+    min-width: 32%;
+    padding: 0px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px; }
+    nav ul li li:hover {
+      background-color: #555; }
+
+.centered {
+  text-align: center;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
