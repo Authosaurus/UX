@@ -3,7 +3,10 @@
 
 nav {
   border-bottom: 1px solid #000;
-  font-size: 3em; }
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; }
   nav ul {
     min-width: 100%;
     list-style-type: none;
@@ -14,12 +17,13 @@ nav {
       height: 80px;
       padding: 0px;
       display: inline-block;
-      text-align: center;
-      text-decoration: none;
       transition: 0.3s;
       padding-top: 2%; }
       nav ul li li:hover {
         background-color: #555; }
+      nav ul li a {
+        text-decoration: none;
+        color: black; }
 
 li:nth-child(1) {
   min-width: 25%; }
@@ -44,7 +48,8 @@ table {
 
 .payment-table {
   width: 80%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  font-size: 2.5em; }
 
 .inner-table {
   margin: auto;
@@ -59,7 +64,12 @@ table {
   text-align: center; }
 
 .progress {
-  margin: 6% auto; }
+  margin: 0 auto;
+  background-image: url("../images/bar_chart.png");
+  width: 90%;
+  background-size: cover;
+  height: 110px;
+  margin-bottom: 200px; }
 
 .login_title {
   font-size: 7em;
@@ -93,10 +103,10 @@ table {
   height: 96px;
   width: 60%;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 3.5em;
   font-weight: bold; }
 
-tr:nth-child(even) {
+.inner-table tr:nth-child(even) {
   background-color: #bbb; }
 
 .btn_login {
@@ -115,5 +125,22 @@ tr:nth-child(even) {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.progress table {
+  width: 100%;
+  padding: 35px;
+  font-size: 3em; }
+
+#paid {
+  text-align: left; }
+
+#not-paid {
+  text-align: right; }
+
+.prog-label {
+  padding-top: 25px; }
+
+#contributionHistory {
+  margin-top: 120px; }
 
 /*# sourceMappingURL=style.css.map */
