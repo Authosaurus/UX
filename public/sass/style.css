@@ -1,9 +1,9 @@
-.scrollit {
-  overflow: scroll;
-  height: 237px; }
+.home-icon {
+  width: 22%; }
 
 nav {
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #000;
+  font-size: 3em; }
   nav ul {
     min-width: 100%;
     list-style-type: none;
@@ -17,7 +17,7 @@ nav {
       text-align: center;
       text-decoration: none;
       transition: 0.3s;
-      padding-top: 5%; }
+      padding-top: 2%; }
       nav ul li li:hover {
         background-color: #555; }
 
@@ -30,12 +30,36 @@ li:nth-child(2) {
 li:nth-child(3) {
   min-width: 25%; }
 
+th:nth-child(1) {
+  width: 29%; }
+
+th:nth-child(2) {
+  width: 32%; }
+
+th:nth-child(3) {
+  width: 33%; }
+
+table {
+  font-size: 2em; }
+
+.payment-table {
+  width: 80%;
+  margin-top: 5%; }
+
+.inner-table {
+  margin: auto;
+  width: 100%;
+  font-size: 1em; }
+
 .centered {
   text-align: center;
   margin: 0 auto; }
 
 .center {
   text-align: center; }
+
+.progress {
+  margin: 6% auto; }
 
 .login_title {
   font-size: 7em;
@@ -80,7 +104,7 @@ tr:nth-child(even) {
 
 .scrollit {
   overflow: scroll;
-  height: 100px; }
+  height: 600px; }
 
 .title {
   font-size: 5em; }
