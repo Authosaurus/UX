@@ -1,0 +1,62 @@
+$teal: #1E9E9E;
+$white: #FFF;
+
+.center{
+  text-align: center;
+}
+
+.login_title{
+  font-size: 7em;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+
+.input{
+  background-color: $white;
+  font-size: 16px;
+}
+
+.input::-webkit-input-placeholder{
+    font-size: 24px;
+    color: black;
+    padding-left: 7%;
+}
+
+.user_input {
+  height: 96px;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  @extend .input;
+}
+
+.forgot_password {
+  font-size: 18px;
+  text-align: right;
+  width: 80%;
+}
+
+.btn {
+  background-color: $teal;
+  color: $white;
+  text-align: center;
+  height: 96px;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn_login {
+  margin-top: 20%;
+  @extend .btn;
+}
+
+.scrollit {
+    overflow:scroll;
+    height:100px;
+}
+
+body {
+  background-color: #ddd;
+}
