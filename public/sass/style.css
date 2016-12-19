@@ -85,4 +85,11 @@ tr:nth-child(even) {
 .title {
   font-size: 5em; }
 
+#landing {
+  background: url("../images/sun.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 /*# sourceMappingURL=style.css.map */
