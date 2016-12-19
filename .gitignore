@@ -1,5 +1,6 @@
 public/sass/style.css.map
-public/sass/.sass-cache
+public/sass/.sass-cache/*
+
 
 # Logs
 logs
