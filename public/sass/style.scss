@@ -1,3 +1,52 @@
+
+.scrollit {
+    overflow:scroll;
+    height:237px;
+}
+
+body {
+  font-size: 40px;
+}
+nav {
+  border-bottom: 1px solid #000;
+
+  ul {
+  min-width:100%;
+  list-style-type: none;
+  overflow: hidden;
+  padding:0px;
+  margin:0px;
+   li {
+    padding:0px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+      li:hover {
+        background-color: #555;
+      }
+    }
+  }
+}
+
+li:nth-child(1) {
+  min-width:25%;
+}
+
+li:nth-child(2) {
+  min-width:45%;
+}
+
+li:nth-child(3) {
+  min-width:25%;
+}
+
+
+.centered {
+  text-align: center;
+  margin:0 auto;
+}
+
 $teal: #1E9E9E;
 $white: #FFF;
 
@@ -45,6 +94,12 @@ $white: #FFF;
   margin: 0 auto;
   font-size: 20px;
   font-weight: bold;
+
+}
+
+tr:nth-child(even) {
+    background-color: #bbb;
+
 }
 
 .btn_login {
@@ -59,4 +114,5 @@ $white: #FFF;
 
 body {
   background-color: #ddd;
+
 }
