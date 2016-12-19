@@ -10,19 +10,32 @@
   <body>
     <nav id='nav-bar'>
       <ul>
-        <li><a href="#"><img src='images/home.svg'></a></li>
+        <li><a href="#"><img class='home-icon' src='images/home.svg'></a></li>
         <li>Harbingers of Hope</li>
         <li><a href="logout">Logout</a></li>
       </ul>
     </nav>
 
     <section class='container centered'>
-      <h1>Hi Jeve Wopkinson</h1>
+      <h1 class='title'>Hi Jeve Wopkinson</h1>
       <button class='btn'>Contribute</button>
-      <h1>Contribution History</h1>
-      <img src='images/bar_chart.png'>
+      <h1 id='contributionHistory' class='title'>Contribution History</h1>
 
-      <table class='centered'>
+
+      <div class='progress'>
+        <table>
+          <tr>
+            <td id='paid'>£2000</td>
+            <td id='not-paid'>£3000</td>
+          </tr>
+          <tr>
+            <td class='prog-label'>Contributed</td>
+            <td class='prog-label'>Remaining</td>
+          </tr>
+        </table>
+      </div>
+
+      <table class='centered payment-table'>
         <thead>
           <th>Date</th>
           <th>Amount</th>
@@ -32,7 +45,7 @@
           <tr>
             <td colspan="3">
               <div class="scrollit">
-                <table>
+                <table class="inner-table">
                   <tr>
                     <td>11/12/16</td>
                     <td>£150.00</td>

@@ -1,14 +1,14 @@
 
-.scrollit {
-    overflow:scroll;
-    height:237px;
+.home-icon {
+  width: 22%;
 }
 
-body {
-  font-size: 40px;
-}
 nav {
   border-bottom: 1px solid #000;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
 
   ul {
   min-width:100%;
@@ -17,13 +17,18 @@ nav {
   padding:0px;
   margin:0px;
    li {
+    height:80px;
     padding:0px;
     display: inline-block;
-    text-align: center;
-    text-decoration: none;
     transition: 0.3s;
+    padding-top: 2%;
+
       li:hover {
         background-color: #555;
+      }
+      a {
+        text-decoration: none;
+        color:black;
       }
     }
   }
@@ -41,6 +46,33 @@ li:nth-child(3) {
   min-width:25%;
 }
 
+th:nth-child(1) {
+  width:29%;
+}
+
+th:nth-child(2) {
+  width:32%;
+}
+
+th:nth-child(3) {
+  width:33%;
+}
+
+table {
+  font-size: 2em;
+}
+
+.payment-table {
+  width:80%;
+  margin-top: 5%;
+  font-size:2.5em;
+}
+
+.inner-table {
+  margin: auto;
+  width: 100%;
+  font-size: 1em;
+}
 
 .centered {
   text-align: center;
@@ -52,6 +84,15 @@ $white: #FFF;
 
 .center{
   text-align: center;
+}
+
+.progress {
+  margin: 0 auto;
+  background-image: url('../images/bar_chart.png');
+  width: 90%;
+  background-size:cover;
+  height:110px;
+  margin-bottom: 200px;
 }
 
 .login_title{
@@ -92,12 +133,12 @@ $white: #FFF;
   height: 96px;
   width: 60%;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 3.5em;
   font-weight: bold;
 
 }
 
-tr:nth-child(even) {
+.inner-table tr:nth-child(even) {
     background-color: #bbb;
 
 }
@@ -109,10 +150,41 @@ tr:nth-child(even) {
 
 .scrollit {
     overflow:scroll;
-    height:100px;
+    height:600px;
 }
 
-body {
-  background-color: #ddd;
+.title {
+  font-size:5em;
+}
 
+#landing {
+  background: url('../images/sun.png') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.progress {
+  table {
+    width:100%;
+    padding: 35px;
+    font-size: 3em;
+  }
+}
+
+#paid {
+  text-align: left;
+}
+
+#not-paid {
+  text-align: right;
+}
+
+.prog-label {
+  padding-top: 25px;
+}
+
+#contributionHistory {
+  margin-top: 120px;
 }
