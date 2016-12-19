@@ -51,3 +51,12 @@ $white: #FFF;
   margin-top: 20%;
   @extend .btn;
 }
+
+.scrollit {
+    overflow:scroll;
+    height:100px;
+}
+
+body {
+  background-color: #ddd;
+}
