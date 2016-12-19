@@ -1,10 +1,42 @@
-.btn {
+.center {
+  text-align: center; }
+
+.login_title {
+  font-size: 7em;
+  margin-top: 30%;
+  margin-bottom: 30%; }
+
+.input, .user_input {
+  background-color: #FFF;
+  font-size: 16px; }
+
+.input::-webkit-input-placeholder, .user_input::-webkit-input-placeholder {
+  font-size: 24px;
+  color: black;
+  padding-left: 7%; }
+
+.user_input {
+  height: 96px;
+  width: 60%;
+  margin: 0 auto;
+  display: block; }
+
+.forgot_password {
+  font-size: 18px;
+  text-align: right;
+  width: 80%; }
+
+.btn, .btn_login {
   background-color: #1E9E9E;
-  color: #FFFAF0;
+  color: #FFF;
   text-align: center;
   height: 96px;
-  width: 375px;
+  width: 60%;
+  margin: 0 auto;
   font-size: 20px;
   font-weight: bold; }
+
+.btn_login {
+  margin-top: 20%; }
 
 /*# sourceMappingURL=style.css.map */
