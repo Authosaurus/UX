@@ -13,7 +13,7 @@ body {
   text-align: center;
   height: 40px;
   width: 60%;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold; }
   .btn a, .contribute_btn a, .btn_login a {
     text-decoration: none;
@@ -71,7 +71,6 @@ body {
 
 .contribute_btn {
   height: 40px;
-  font-size: 1em;
   margin: 25px auto; }
 
 .landing {
@@ -203,8 +202,7 @@ table {
 
 .btn_back {
   white-space: nowrap;
-  overflow: hidden;
-  font-size: 1em; }
+  overflow: hidden; }
 
 h2 {
   margin-top: 60px; }
