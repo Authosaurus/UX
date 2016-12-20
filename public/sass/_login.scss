@@ -1,0 +1,33 @@
+@import 'variable';
+
+.login_title{
+  font-size: 8em;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  font-weight: bold;
+}
+
+.user_input {
+  height: 96px;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  @extend .input;
+}
+
+.forgot_password {
+  font-size: 18px;
+  text-align: right;
+  width: 80%;
+}
+
+.btn_login {
+  margin-top: 20%;
+  height: 96px;
+  font-size: 2em;
+
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}

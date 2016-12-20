@@ -1,6 +1,15 @@
 body {
   font-family: 'Raleway', 'Indie Flower', cursive; }
 
+.btn {
+  background-color: #1E9E9E;
+  color: #FFF;
+  text-align: center;
+  height: 40px;
+  width: 60%;
+  font-size: 1.5em;
+  font-weight: bold; }
+
 .title {
   font-size: 2em;
   margin: 75px auto; }
@@ -46,6 +55,31 @@ body {
   font-size: 3.5em;
   font-weight: bold;
   margin: 65px auto; }
+
+.login_title {
+  font-size: 8em;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  font-weight: bold; }
+
+.user_input {
+  height: 96px;
+  width: 60%;
+  margin: 0 auto;
+  display: block; }
+
+.forgot_password {
+  font-size: 18px;
+  text-align: right;
+  width: 80%; }
+
+.btn_login {
+  margin-top: 20%;
+  height: 96px;
+  font-size: 2em; }
+  .btn_login a {
+    text-decoration: none;
+    color: #FFF; }
 
 .home-icon {
   width: 22%; }
@@ -117,12 +151,6 @@ table {
   background-size: contain;
   height: 40px; }
 
-.login_title {
-  font-size: 1em;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  font-weight: bold; }
-
 .input, .user_input {
   background-color: #FFF;
   font-size: 30px; }
@@ -132,31 +160,8 @@ table {
   color: black;
   padding-left: 7%; }
 
-.user_input {
-  height: 96px;
-  width: 60%;
-  margin: 0 auto;
-  display: block; }
-
-.forgot_password {
-  font-size: 18px;
-  text-align: right;
-  width: 80%; }
-
-.btn, .btn_login {
-  background-color: #1E9E9E;
-  color: #FFF;
-  text-align: center;
-  height: 40px;
-  width: 60%;
-  font-size: 1.5em;
-  font-weight: bold; }
-
 .inner-table tr:nth-child(even) {
   background-color: #bbb; }
-
-.btn_login {
-  margin-top: 20%; }
 
 .scrollit {
   overflow: scroll;
