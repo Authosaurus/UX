@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', 'Indie Flower', cursive; }
 
-.btn, .contribute_btn, .btn_login {
+.btn, .submit_btn, .btn_login {
   background-color: #1E9E9E;
   color: #FFF;
   text-align: center;
@@ -9,7 +9,7 @@ body {
   width: 60%;
   font-size: 1em;
   font-weight: bold; }
-  .btn a, .contribute_btn a, .btn_login a {
+  .btn a, .submit_btn a, .btn_login a {
     text-decoration: none;
     color: #FFF; }
 
@@ -63,7 +63,7 @@ body {
 .tooltip:hover .tooltiptext {
   visibility: visible; }
 
-.contribute_btn {
+.submit_btn {
   height: 40px;
   margin: 25px auto; }
 
