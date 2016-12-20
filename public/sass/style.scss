@@ -150,6 +150,11 @@ $white: #FFF;
   height: 96px;
   font-size: 2em;
   @extend .btn;
+
+  a {
+    text-decoration: none;
+    color: $white;
+  }
 }
 
 .scrollit {

@@ -159,6 +159,9 @@ table {
   margin-top: 20%;
   height: 96px;
   font-size: 2em; }
+  .btn_login a {
+    text-decoration: none;
+    color: #FFF; }
 
 .scrollit {
   overflow: scroll;
