@@ -3,24 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link href='./sass/style.css' rel='stylesheet'
+    <link href='./sass/normalize.css' rel='stylesheet'>
+    <link href='./sass/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
   </head>
   <body>
     <nav id='nav-bar'>
       <ul>
-        <li><a href="#"><img src='images/home.svg'> HOME</a></li>
+        <li><a href="#"><img class='home-icon' src='images/home.svg'></a></li>
         <li>Harbingers of Hope</li>
-        <li><a href="logout">Logout</li>
+        <li><a href="logout">Logout</a></li>
       </ul>
     </nav>
 
-    <section id='container'>
-      <h1>Hi Jeve Wopkinson</h1>
-      <button>Contribute</button>
-      <h1>Contribution History</h1>
-      <img src='#'>
+    <section class='container centered'>
+      <h1 class='title'>Hi Jeve Wopkinson</h1>
+      <button class='btn'>Contribute</button>
+      <h1 id='contributionHistory' class='title'>Contribution History</h1>
 
-      <table>
+
+      <div class='progress'>
+        <table>
+          <tr>
+            <td class='left-align'>£2000</td>
+            <td class='right-align'>£3000</td>
+          </tr>
+          <tr>
+            <td class='prog-label left-align'>Contributed</td>
+            <td class='prog-label right-align'>Remaining</td>
+          </tr>
+        </table>
+      </div>
+
+      <table class='centered payment-table'>
         <thead>
           <th>Date</th>
           <th>Amount</th>
@@ -30,7 +45,7 @@
           <tr>
             <td colspan="3">
               <div class="scrollit">
-                <table>
+                <table class="inner-table">
                   <tr>
                     <td>11/12/16</td>
                     <td>£150.00</td>
