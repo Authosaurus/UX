@@ -1,8 +1,8 @@
 
-body {
-  font-family: 'Raleway', 'Indie Flower', cursive;
-}
+@import 'common';
+@import 'variable';
 @import 'contribute';
+@import 'login';
 
 .home-icon {
   width: 22%;
@@ -87,21 +87,11 @@ table {
   margin-right: auto;
 }
 
-$teal: #1E9E9E;
-$white: #FFF;
-
 .progress {
   background-image: url('../images/bar_chart.png');
   width: 300px;
   background-size: contain;
   height: 40px;
-}
-
-.login_title{
-  font-size: 8em;
-  margin-top: 30%;
-  margin-bottom: 30%;
-  font-weight: bold;
 }
 
 .input{
@@ -115,46 +105,9 @@ $white: #FFF;
     padding-left: 7%;
 }
 
-.user_input {
-  height: 96px;
-  width: 60%;
-  margin: 0 auto;
-  display: block;
-  @extend .input;
-}
-
-.forgot_password {
-  font-size: 18px;
-  text-align: right;
-  width: 80%;
-}
-
-.btn {
-  background-color: $teal;
-  color: $white;
-  text-align: center;
-  height: 40px;
-  width: 60%;
-  font-size: 1.5em;
-  font-weight: bold;
-
-}
 
 .inner-table tr:nth-child(even) {
     background-color: #bbb;
-
-}
-
-.btn_login {
-  margin-top: 20%;
-  height: 96px;
-  font-size: 2em;
-  @extend .btn;
-
-  a {
-    text-decoration: none;
-    color: $white;
-  }
 }
 
 .scrollit {
