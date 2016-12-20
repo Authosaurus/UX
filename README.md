@@ -6,7 +6,7 @@
   * user personas
   * user stories
   * user journies
-  * storybaord
+  * storyboard
   * prototyping
   * user testing
 - new technologies:
@@ -32,5 +32,22 @@ Examples
 ![img](Screenshot 2016-12-16 14.43.44.png)
 ![img](Screenshot 2016-12-16 14.44.31.png)
 
+## Mock ups
+
+Our mock ups can be viewed [here](https://www.figma.com/file/K2l7vXj5x891U50xOMaNJxOp/harbingers-of-hope).
+
 ## User stories
 
+### Contributor
+
+Contributors are unlikely to have good technical skills or reliable access to fast internet and modern browsers. We made the assumption (based on our discussion with the client) that many contributors would access the site on low-powered smartphones. Therefore we designed the app to have a simple interface that would load quickly.
+
+Contributors are using the app in order to make contributions and see an overview of their total contributions. Therefore after logging in their are taken to an overview page, which has a graphical summary of their total contributions, a prominent button to make a new contribution and a list of each contribution.
+
+Making a contribution is a one-step process of filling out payment details on a single page. Following feedback from user testing we added a confirmation page after payment. This is to provide reassurance that the payment went through with the correct amount etc. This page includes social media sharing links as these were also raised in user testing.
+
+### Administrators
+
+Administrators will access the app to see an overview of all contributions and to be able to register contributions from  particular individuals. On logging in they are taken to a page with a graphical summary of all contributions with a more detailed breakdown against monthly targets (as requested by the client). There is a button to view contributors, which shows a filterable and searchable list of all contributors. Clicking on a particular contributor will take the admin to a page where they can register contributions from that contributor. There is also the option to add a new user.
+
+The intention with this design was to allow admin staff to have a clean overview page with the option to drop down into further detail for individual contributors.
