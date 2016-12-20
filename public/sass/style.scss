@@ -1,12 +1,16 @@
+
 body {
   font-family: 'Raleway', 'Indie Flower', cursive;
 }
+@import 'contribute';
+
 .home-icon {
   width: 22%;
 }
 
 nav {
   border-bottom: 1px solid #000;
+
   font-size: 3em;
   font-weight: bold;
   text-align: center;
@@ -105,11 +109,11 @@ $white: #FFF;
 
 .input{
   background-color: $white;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .input::-webkit-input-placeholder{
-    font-size: 24px;
+    font-size: 25px;
     color: black;
     padding-left: 7%;
 }

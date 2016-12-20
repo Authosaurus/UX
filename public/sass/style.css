@@ -1,6 +1,23 @@
 body {
   font-family: 'Raleway', 'Indie Flower', cursive; }
 
+.title {
+  font-size: 2em; }
+
+.form_input {
+  width: 60%;
+  height: 90px;
+  display: block;
+  margin: 0px auto 30px;
+  -webkit-appearance: none; }
+
+.label {
+  font-size: 2em;
+  text-align: left;
+  width: 60%;
+  display: inline-block;
+  margin-bottom: 10px; }
+
 .home-icon {
   width: 22%; }
 
@@ -81,10 +98,10 @@ table {
 
 .input, .user_input {
   background-color: #FFF;
-  font-size: 16px; }
+  font-size: 30px; }
 
 .input::-webkit-input-placeholder, .user_input::-webkit-input-placeholder {
-  font-size: 24px;
+  font-size: 25px;
   color: black;
   padding-left: 7%; }
 
