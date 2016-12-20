@@ -10,9 +10,9 @@
 <body>
   <nav id='nav-bar'>
     <ul>
-      <li><a href="#"><img class='home-icon' src='images/home.svg'></a></li>
+      <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
       <li>Harbingers of Hope</li>
-      <li><a href="logout">Logout</a></li>
+      <li><a href="index.html">Logout</a></li>
     </ul>
   </nav>
 
@@ -34,7 +34,10 @@
         <option value="yyy">yyy</option>
       </select>
 
-      <label class="label">CVV</label>
+      <label class="label">CVV <i class="fa fa-question-circle-o tooltip" aria-hidden="true">
+          <span class="tooltiptext">3 digits number on the back of the card</span>
+        </i>
+      </label>
       <input type="text" class="input form_input" placeholder="xxx">
 
       <label class="label">Billing Address *</label>
@@ -43,9 +46,10 @@
       <label class="label">Billing Address 2 *</label>
       <input type="text" class="input form_input" placeholder="London, SE12 8HU">
 
-      <button class="btn">Contribute</button>
+      <button class="contribute_btn">Contribute</button>
     </form>
   </section>
+  <script src="https://use.fontawesome.com/dab6567ebf.js"></script>
 
 </body>
 </html>
