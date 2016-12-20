@@ -28,6 +28,7 @@ nav {
     display: inline-block;
     transition: 0.3s;
     padding-top: 2%;
+    text-align: center;
 
       li:hover {
         background-color: #555;
@@ -42,6 +43,7 @@ nav {
 
 li:nth-child(1) {
   min-width:25%;
+  font-size: 1.5em;
 }
 
 li:nth-child(2) {
