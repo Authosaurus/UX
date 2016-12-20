@@ -1,0 +1,78 @@
+@import 'variable';
+
+th:nth-child(1) {
+  width:29%;
+}
+
+th:nth-child(2) {
+  width:32%;
+}
+
+th:nth-child(3) {
+  width:33%;
+}
+
+table {
+  font-size: 2em;
+}
+
+.payment-table {
+  margin-top: 15%;
+  font-size: 1em;
+}
+
+.inner-table {
+  margin: auto;
+  width: 100%;
+  font-size: 1em;
+}
+
+.progress {
+  background-image: url('../images/bar_chart.png');
+  width: 300px;
+  background-size: contain;
+  height: 40px;
+  line-height: 2em;
+}
+
+.inner-table tr:nth-child(even) {
+  background-color: #bbb;
+}
+
+.scrollit {
+  overflow:scroll;
+  height:300px;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.sharing {
+  margin: 3%;
+}
+
+.fa {
+  padding: 1%;
+}
+
+.progress {
+  table {
+    width:100%;
+    font-size: 1em;
+  }
+}
+
+.left-align {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.right-align {
+  text-align: right;
+  padding-right: 25px;
+}
+
+#contributionHistory {
+  margin-top: 10%;
+}
