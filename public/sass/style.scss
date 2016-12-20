@@ -70,7 +70,7 @@ table {
 }
 
 .payment-table {
-  margin-top: 5%;
+  margin-top: 15%;
   font-size: 1em;
 }
 
@@ -85,6 +85,7 @@ table {
   width: 300px;
   background-size: contain;
   height: 40px;
+  line-height: 2em;
 }
 
 .inner-table tr:nth-child(even) {
@@ -126,14 +127,12 @@ table {
 
 .left-align {
   text-align: left;
+  padding-left: 25px;
 }
 
 .right-align {
   text-align: right;
-}
-
-.prog-label {
-  padding-top: 25px;
+  padding-right: 25px;
 }
 
 #contributionHistory {
