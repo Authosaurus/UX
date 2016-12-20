@@ -1,5 +1,6 @@
 .title {
   font-size: 2em;
+  margin: 75px auto;
 }
 
 .form_input {
@@ -16,4 +17,14 @@
   width: 60%;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+.contribute_btn{
+  background-color: #1E9E9E;
+  color: #FFF;
+  text-align: center;
+  height: 96px;
+  width: 60%;
+  font-size: 3.5em;
+  font-weight: bold;  margin: 65px auto;
 }
