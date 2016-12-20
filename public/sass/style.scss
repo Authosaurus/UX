@@ -89,12 +89,12 @@ table {
 
 .input{
   background-color: $white;
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
-.input::-webkit-input-placeholder{
-  font-size: 25px;
-  color: $black;
+.input::-webkit-input-placeholder {
+  font-size: 0.5em;
+  color: $grey;
   padding-left: 7%;
 }
 
