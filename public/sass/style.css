@@ -15,6 +15,9 @@ body {
   width: 60%;
   font-size: 1.5em;
   font-weight: bold; }
+  .btn a, .contribute_btn a, .btn_login a {
+    text-decoration: none;
+    color: #FFF; }
 
 .centered {
   text-align: center;
@@ -94,9 +97,6 @@ body {
   margin-top: 20%;
   height: 40px;
   font-size: 1em; }
-  .btn_login a {
-    text-decoration: none;
-    color: #FFF; }
 
 .home-icon {
   width: 22%; }
