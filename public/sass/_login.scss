@@ -16,15 +16,18 @@
 }
 
 .forgot_password {
-  font-size: 18px;
+  font-size: 1.4em;
   text-align: right;
   width: 80%;
+  color: white;
+  font-weight: bold;
 }
 
 .btn_login {
   margin-top: 20%;
   height: 96px;
   font-size: 2em;
+  @extend .btn;
 
   a {
     text-decoration: none;
