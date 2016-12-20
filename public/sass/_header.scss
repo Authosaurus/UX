@@ -1,6 +1,6 @@
 @import 'variable';
 
-nav {
+.navbar {
   border-bottom: 1px solid $black;
   font-size: 1em;
   font-weight: bold;
@@ -13,6 +13,7 @@ nav {
     overflow: hidden;
     padding:0px;
     margin:0px;
+
     li {
       height: 25px;
       padding:0px;
@@ -21,12 +22,14 @@ nav {
       padding-top: 2%;
       text-align: center;
 
-      li:hover {
-        background-color: #555;
-      }
       a {
         text-decoration: none;
         color:$black;
+        opacity: 1;
+
+        &:hover {
+          opacity: 0.5;
+        }
       }
     }
   }
