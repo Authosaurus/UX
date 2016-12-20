@@ -8,38 +8,33 @@
   width: 22%;
 }
 
-.container {
-  width: 90%;
-}
-
 nav {
-  border-bottom: 1px solid #000;
-
+  border-bottom: 1px solid $black;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
 
   ul {
-  min-width:100%;
-  list-style-type: none;
-  overflow: hidden;
-  padding:0px;
-  margin:0px;
-   li {
-    height: 25px;
+    min-width:100%;
+    list-style-type: none;
+    overflow: hidden;
     padding:0px;
-    display: inline-block;
-    transition: 0.3s;
-    padding-top: 2%;
-    text-align: center;
+    margin:0px;
+    li {
+      height: 25px;
+      padding:0px;
+      display: inline-block;
+      transition: 0.3s;
+      padding-top: 2%;
+      text-align: center;
 
       li:hover {
         background-color: #555;
       }
       a {
         text-decoration: none;
-        color:black;
+        color:$black;
       }
     }
   }
@@ -85,12 +80,6 @@ table {
   font-size: 1em;
 }
 
-.centered {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .progress {
   background-image: url('../images/bar_chart.png');
   width: 300px;
@@ -104,19 +93,19 @@ table {
 }
 
 .input::-webkit-input-placeholder{
-    font-size: 25px;
-    color: black;
-    padding-left: 7%;
+  font-size: 25px;
+  color: $black;
+  padding-left: 7%;
 }
 
 
 .inner-table tr:nth-child(even) {
-    background-color: #bbb;
+  background-color: #bbb;
 }
 
 .scrollit {
-    overflow:scroll;
-    height:300px;
+  overflow:scroll;
+  height:300px;
 }
 
 .title {
@@ -129,10 +118,10 @@ table {
 
 #landing {
   background: url('../images/mountains.png') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
