@@ -94,7 +94,8 @@ table {
 .login_title {
   font-size: 7em;
   margin-top: 30%;
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+  font-weight: bold; }
 
 .input, .user_input {
   background-color: #FFF;
@@ -140,7 +141,7 @@ table {
   font-size: 5em; }
 
 #landing {
-  background: url("../images/sun.png") no-repeat center center fixed;
+  background: url("../images/mountains.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
