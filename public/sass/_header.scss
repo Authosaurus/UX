@@ -1,0 +1,50 @@
+@import 'variable';
+
+nav {
+  border-bottom: 1px solid $black;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+
+  ul {
+    min-width:100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding:0px;
+    margin:0px;
+    li {
+      height: 25px;
+      padding:0px;
+      display: inline-block;
+      transition: 0.3s;
+      padding-top: 2%;
+      text-align: center;
+
+      li:hover {
+        background-color: #555;
+      }
+      a {
+        text-decoration: none;
+        color:$black;
+      }
+    }
+  }
+}
+
+li:nth-child(1) {
+  min-width:25%;
+  font-size: 1.5em;
+}
+
+li:nth-child(2) {
+  min-width:45%;
+}
+
+li:nth-child(3) {
+  min-width:25%;
+}
+
+.home-icon {
+  width: 22%;
+}

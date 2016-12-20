@@ -74,6 +74,13 @@ body {
   font-size: 1em;
   margin: 25px auto; }
 
+#landing {
+  background: url("../images/mountains.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .login_title {
   font-size: 3em;
   margin-top: 30%;
@@ -97,9 +104,6 @@ body {
   margin-top: 20%;
   height: 40px;
   font-size: 1em; }
-
-.home-icon {
-  width: 22%; }
 
 nav {
   border-bottom: 1px solid #000;
@@ -136,6 +140,9 @@ li:nth-child(2) {
 li:nth-child(3) {
   min-width: 25%; }
 
+.home-icon {
+  width: 22%; }
+
 th:nth-child(1) {
   width: 29%; }
 
@@ -149,7 +156,7 @@ table {
   font-size: 2em; }
 
 .payment-table {
-  margin-top: 5%;
+  margin-top: 15%;
   font-size: 1em; }
 
 .inner-table {
@@ -161,7 +168,8 @@ table {
   background-image: url("../images/bar_chart.png");
   width: 300px;
   background-size: contain;
-  height: 40px; }
+  height: 40px;
+  line-height: 2em; }
 
 .inner-table tr:nth-child(even) {
   background-color: #bbb; }
@@ -176,13 +184,6 @@ table {
 .sharing {
   margin: 3%; }
 
-#landing {
-  background: url("../images/mountains.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .fa {
   padding: 1%; }
 
@@ -191,13 +192,12 @@ table {
   font-size: 1em; }
 
 .left-align {
-  text-align: left; }
+  text-align: left;
+  padding-left: 25px; }
 
 .right-align {
-  text-align: right; }
-
-.prog-label {
-  padding-top: 25px; }
+  text-align: right;
+  padding-right: 25px; }
 
 #contributionHistory {
   margin-top: 10%; }
