@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'Raleway', 'Indie Flower', cursive;
+}
 .home-icon {
   width: 22%;
 }
@@ -173,11 +175,11 @@ $white: #FFF;
   }
 }
 
-#paid {
+.left-align {
   text-align: left;
 }
 
-#not-paid {
+.right-align {
   text-align: right;
 }
 
