@@ -1,3 +1,6 @@
+body {
+  font-family: 'Raleway', 'Indie Flower', cursive; }
+
 .title {
   font-size: 2em; }
 
@@ -148,10 +151,10 @@ table {
   padding: 35px;
   font-size: 3em; }
 
-#paid {
+.left-align {
   text-align: left; }
 
-#not-paid {
+.right-align {
   text-align: right; }
 
 .prog-label {
