@@ -2,7 +2,7 @@
 
 ## Link to our pages: https://authosaurus.github.io/UX/public
 ## Project Learning objectives
-- client interactions 
+- client interactions
 - design flow
   * user personas
   * user stories
@@ -16,7 +16,7 @@
 
 ## WHAT
 
-Payment tracker web application for a charity (Harbingers of Hope) that assists the homeless in providing services which ultimately lead to them finding work. 
+Payment tracker web application for a charity (Harbingers of Hope) that assists the homeless in providing services which ultimately lead to them finding work.
 
 ## Inital notes from client meeting
 
@@ -30,8 +30,8 @@ Admin staff will be able to see an overview of all contributions, view the contr
 A user persona is a model of a real person. Each persona represents a proportion of the real users. Each persona becomes the main character in their user story. The main character has attitudes, motivations, pain points, and goals. Since we can measure whether a goal has been met or not, we can keep the project focused around the users in an exercise of goal-directed design.
 
 Examples
-![img](Screenshot 2016-12-16 14.43.44.png)
-![img](Screenshot 2016-12-16 14.44.31.png)
+![img](wireframe/Screenshot 2016-12-16 14.43.44.png)
+![img](wireframe/Screenshot 2016-12-16 14.44.31.png)
 
 ## Mock ups
 

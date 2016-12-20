@@ -74,7 +74,7 @@ body {
   font-size: 1em;
   margin: 25px auto; }
 
-#landing {
+.landing {
   background: url("../images/mountains.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -105,30 +105,31 @@ body {
   height: 40px;
   font-size: 1em; }
 
-nav {
+.navbar {
   border-bottom: 1px solid #000;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
   text-decoration: none; }
-  nav ul {
+  .navbar ul {
     min-width: 100%;
     list-style-type: none;
     overflow: hidden;
     padding: 0px;
     margin: 0px; }
-    nav ul li {
+    .navbar ul li {
       height: 25px;
       padding: 0px;
       display: inline-block;
       transition: 0.3s;
       padding-top: 2%;
       text-align: center; }
-      nav ul li li:hover {
-        background-color: #555; }
-      nav ul li a {
+      .navbar ul li a {
         text-decoration: none;
-        color: #000; }
+        color: #000;
+        opacity: 1; }
+        .navbar ul li a:hover {
+          opacity: 0.5; }
 
 li:nth-child(1) {
   min-width: 25%;
@@ -178,9 +179,6 @@ table {
   overflow: scroll;
   height: 300px; }
 
-.title {
-  font-size: 2em; }
-
 .sharing {
   margin: 3%; }
 
@@ -199,7 +197,20 @@ table {
   text-align: right;
   padding-right: 25px; }
 
-#contributionHistory {
-  margin-top: 10%; }
+.title_contribution {
+  margin-top: 10%;
+  font-size: 2em; }
+
+.btn_back {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1em; }
+
+h2 {
+  margin-top: 60px; }
+
+.sharing {
+  margin-top: 80px;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
