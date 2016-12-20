@@ -1,5 +1,6 @@
 # UX
 
+## Link to our pages: https://authosaurus.github.io/UX/public
 ## Project Learning objectives
 - client interactions 
 - design flow
