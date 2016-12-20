@@ -98,7 +98,7 @@ $white: #FFF;
 }
 
 .login_title{
-  font-size: 1em;
+  font-size: 8em;
   margin-top: 30%;
   margin-bottom: 30%;
   font-weight: bold;
@@ -147,6 +147,8 @@ $white: #FFF;
 
 .btn_login {
   margin-top: 20%;
+  height: 96px;
+  font-size: 2em;
   @extend .btn;
 }
 

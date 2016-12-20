@@ -118,7 +118,7 @@ table {
   height: 40px; }
 
 .login_title {
-  font-size: 1em;
+  font-size: 8em;
   margin-top: 30%;
   margin-bottom: 30%;
   font-weight: bold; }
@@ -156,7 +156,9 @@ table {
   background-color: #bbb; }
 
 .btn_login {
-  margin-top: 20%; }
+  margin-top: 20%;
+  height: 96px;
+  font-size: 2em; }
 
 .scrollit {
   overflow: scroll;
