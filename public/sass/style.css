@@ -1,10 +1,6 @@
 body {
   font-family: 'Raleway', 'Indie Flower', cursive; }
 
-.title {
-  font-size: 2em;
-  margin: 75px auto; }
-
 .form_input {
   width: 60%;
   height: 90px;
@@ -49,6 +45,9 @@ body {
 
 .home-icon {
   width: 22%; }
+
+.container {
+  width: 90%; }
 
 nav {
   border-bottom: 1px solid #000;
@@ -160,10 +159,13 @@ table {
 
 .scrollit {
   overflow: scroll;
-  height: 600px; }
+  height: 300px; }
 
 .title {
   font-size: 2em; }
+
+.sharing {
+  margin: 3%; }
 
 #landing {
   background: url("../images/mountains.png") no-repeat center center fixed;
@@ -171,6 +173,9 @@ table {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.fa {
+  padding: 1%; }
 
 .progress table {
   width: 100%;

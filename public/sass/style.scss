@@ -8,6 +8,10 @@ body {
   width: 22%;
 }
 
+.container {
+  width: 90%;
+}
+
 nav {
   border-bottom: 1px solid #000;
 
@@ -152,11 +156,15 @@ $white: #FFF;
 
 .scrollit {
     overflow:scroll;
-    height:600px;
+    height:300px;
 }
 
 .title {
   font-size: 2em;
+}
+
+.sharing {
+  margin: 3%;
 }
 
 #landing {
@@ -166,6 +174,10 @@ $white: #FFF;
         -o-background-size: cover;
         background-size: cover;
 
+}
+
+.fa {
+  padding: 1%;
 }
 
 .progress {
