@@ -202,4 +202,16 @@ table {
 #contributionHistory {
   margin-top: 10%; }
 
+.btn_back {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1em; }
+
+h2 {
+  margin-top: 60px; }
+
+.sharing {
+  margin-top: 80px;
+  margin-bottom: 30px; }
+
 /*# sourceMappingURL=style.css.map */
