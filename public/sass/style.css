@@ -1,5 +1,7 @@
 body {
-  font-family: 'Raleway', 'Indie Flower', cursive; }
+  font-family: 'Raleway', 'Indie Flower', cursive;
+  max-width: 375px;
+  margin: 0 auto; }
 
 .btn, .submit_btn, .btn_login {
   background-color: #1E9E9E;
