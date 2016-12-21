@@ -1,6 +1,9 @@
 # UX
 
 ## Link to our pages: https://authosaurus.github.io/UX/public
+
+This is design only for mobile.
+
 ## Project Learning objectives
 - client interactions
 - design flow
