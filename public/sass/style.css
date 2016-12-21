@@ -114,10 +114,8 @@ body {
     margin: 0px; }
     .navbar ul li {
       height: 25px;
-      padding: 0px;
       display: inline-block;
-      padding-top: 2%;
-      text-align: center; }
+      padding-top: 2%; }
       .navbar ul li a {
         text-decoration: none;
         color: #000;
