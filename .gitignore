@@ -1,6 +1,7 @@
 public/sass/style.css.map
 public/sass/.sass-cache/*
 .sass-cache
+dump.rdb
 
 # Logs
 logs
