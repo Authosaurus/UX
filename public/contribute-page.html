@@ -23,15 +23,15 @@
 
   <section class="container centered">
     <h1 class="title">Contribution details</h1>
-      <label class="label">Amount *</label>
-      <input type="text" class="input form_input" placeholder="£" required>
+      <label for="contribution_amount" class="label">Amount *</label>
+      <input id="contribution_amount" type="text" class="input form_input" placeholder="£" required>
 
-      <label class="label">Card No. *</label>
-      <input type="text" class="input form_input" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+      <label for="card_number" class="label">Card No. *</label>
+      <input id="card_number" type="text" class="input form_input" placeholder="xxxx-xxxx-xxxx-xxxx" required>
 
-      <label class="label">Card type *</label>
+      <label for="card_type" class="label">Card type *</label>
 
-      <select class="input form_input" required>
+      <select id="card_type" class="input form_input" required>
         <option value="" disabled selected>Select your option</option>
         <option>Visa</option>
         <option>MasterCard</option>
@@ -41,21 +41,21 @@
         <option>Visa Electron</option>
       </select>
 
-      <label class="label">CVV
+      <label for="cvv" class="label">CVV
         <i class="fa fa-question-circle-o tooltip">
           <span class="tooltiptext">3 digit number on the back of the card</span>
         </i>
       </label>
-      <input type="text" class="input form_input" placeholder="xxx" required>
+      <input id="cvv" type="text" class="input form_input" placeholder="xxx" required>
 
-      <label class="label">Billing Address *</label>
-      <input type="text" class="input form_input" placeholder="100 Small rd." required>
+      <label for="billing_address" class="label">Billing Address *</label>
+      <input id="billing_address" type="text" class="input form_input" placeholder="100 Small rd." required>
 
-      <label class="label">City, Zip Code *</label>
-      <input type="text" class="input form_input" placeholder="London, SE12 8HU" required>
+      <label for="city" class="label">City, Zip Code *</label>
+      <input id="city" type="text" class="input form_input" placeholder="London, SE12 8HU" required>
 
       <p class='required_field'>* required field</p>
-      
+
       <a href="success.html"><button class="submit_btn">Submit</button></a>
 
     </form>
