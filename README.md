@@ -1,6 +1,6 @@
 # UX
 
-## Link to our pages: https://authosaurus.github.io/UX/public
+## Link to our pages: https://authosaurus.github.io/ux-project/public
 
 This is design only for mobile.
 
