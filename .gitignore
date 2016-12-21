@@ -1,5 +1,6 @@
-public/sass/style.css.map
-public/sass/.sass-cache/*
+public/styling/style.css.map
+public/styling/.sass-cache/*
+user-testing-ux.numbers
 .sass-cache
 dump.rdb
 
@@ -40,6 +41,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-
-user-testing-ux.numbers
-public/sass/.sass-cache
