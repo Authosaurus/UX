@@ -69,6 +69,13 @@ body {
   height: 40px;
   margin: 25px auto; }
 
+.required_field {
+  color: #1E9E9E;
+  font-size: 0.75em;
+  width: 60%;
+  text-align: left;
+  margin: 0 auto; }
+
 .landing {
   background: url("../images/mountains.png") no-repeat center center fixed;
   -webkit-background-size: cover;

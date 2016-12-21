@@ -42,3 +42,11 @@
   margin: 25px auto;
   @extend .btn;
 }
+
+.required_field {
+  color:$teal;
+  font-size:0.75em;
+  width:60%;
+  text-align: left;
+  margin: 0 auto;
+}
