@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
   <title>Harbingers of Hope</title>
 </head>
-<body>
+<body ontouchstart=””>
   <nav class='navbar'>
     <ul>
       <li>
@@ -30,7 +30,9 @@
       <input type="text" class="input form_input" placeholder="xxxx-xxxx-xxxx-xxxx" required>
 
       <label class="label">Card type *</label>
-      <select class="input form_input">
+
+      <select class="input form_input" required>
+        <option value="" disabled selected>Select your option</option>
         <option>Visa</option>
         <option>MasterCard</option>
         <option>American Express</option>
@@ -44,7 +46,7 @@
           <span class="tooltiptext">3 digit number on the back of the card</span>
         </i>
       </label>
-      <input type="text" class="input form_input" placeholder="xxx">
+      <input type="text" class="input form_input" placeholder="xxx" required>
 
       <label class="label">Billing Address *</label>
       <input type="text" class="input form_input" placeholder="100 Small rd." required>
@@ -52,7 +54,10 @@
       <label class="label">City, Zip Code *</label>
       <input type="text" class="input form_input" placeholder="London, SE12 8HU" required>
 
-    <button class="submit_btn"><a href="success.html">Submit</a></button>
+      <p class='required_field'>* required field</p>
+      
+      <a href="success.html"><button class="submit_btn">Submit</button></a>
+
     </form>
   </section>
   <script src="https://use.fontawesome.com/dab6567ebf.js"></script>

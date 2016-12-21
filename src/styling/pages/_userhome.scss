@@ -1,5 +1,8 @@
 @import '../variable';
 
+th {
+  font-weight: 200;
+}
 th:nth-child(1) {
   width:29%;
 }
@@ -29,15 +32,16 @@ table {
 
 .progress {
   background-image: url('../images/bar_chart.png');
-  width: 300px;
-  background-size: contain;
-  height: 40px;
+  width: 20em;
+  background-size: cover;
+  height: 2.3em;
   line-height: 2em;
 }
 
-.inner-table tr:nth-child(even) {
+.payment-table tr:nth-child(even) {
   background-color: #bbb;
 }
+
 
 .scrollit {
   overflow:scroll;

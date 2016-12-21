@@ -108,6 +108,13 @@ li:nth-child(3) {
   height: 40px;
   margin: 25px auto; }
 
+.required_field {
+  color: #1E9E9E;
+  font-size: 0.75em;
+  width: 60%;
+  text-align: left;
+  margin: 0 auto; }
+
 .landing {
   background: url("../images/mountains.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -147,6 +154,48 @@ li:nth-child(3) {
   height: 40px;
   font-size: 1em; }
 
+
+.navbar {
+  border-bottom: 1px solid #000;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; }
+  .navbar ul {
+    min-width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px; }
+    .navbar ul li {
+      height: 25px;
+      display: inline-block;
+      padding-top: 2%; }
+      .navbar ul li a {
+        text-decoration: none;
+        color: #000;
+        transition: opacity 0.3s;
+        opacity: 1; }
+        .navbar ul li a:hover {
+          opacity: 0.5; }
+
+li:nth-child(1) {
+  min-width: 25%;
+  font-size: 1.5em; }
+
+li:nth-child(2) {
+  min-width: 45%; }
+
+li:nth-child(3) {
+  min-width: 25%; }
+
+.home-icon {
+  width: 22%; }
+
+th {
+  font-weight: 200; }
+
+
 th:nth-child(1) {
   width: 29%; }
 
@@ -170,12 +219,12 @@ table {
 
 .progress {
   background-image: url("../images/bar_chart.png");
-  width: 300px;
-  background-size: contain;
-  height: 40px;
+  width: 20em;
+  background-size: cover;
+  height: 2.3em;
   line-height: 2em; }
 
-.inner-table tr:nth-child(even) {
+.payment-table tr:nth-child(even) {
   background-color: #bbb; }
 
 .scrollit {
