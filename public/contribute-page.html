@@ -3,23 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
-  <link href='./sass/normalize.css' rel='stylesheet'>
-  <link href='./sass/style.css' rel='stylesheet'>
+  <link href='styling/normalize.css' rel='stylesheet'>
+  <link href='styling/style.css' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
   <title>Harbingers of Hope</title>
 </head>
 <body ontouchstart=””>
   <nav class='navbar'>
     <ul>
-      <li><a href="userhome.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-      <li>Harbingers of Hope</li>
+      <li>
+        <a href="userhome.html">
+          <span class="fa fa-home" title="Home"></span>
+        </a>
+      </li>
+      <li><a href="userhome.html">Harbingers of Hope</a></li>
       <li><a href="index.html">Logout</a></li>
     </ul>
   </nav>
 
   <section class="container centered">
     <h1 class="title">Contribution details</h1>
-    <form> <!-- action="index.html" method="post"-->
       <label class="label">Amount *</label>
       <input type="text" class="input form_input" placeholder="£" required>
 
@@ -27,9 +30,13 @@
       <input type="text" class="input form_input" placeholder="xxxx-xxxx-xxxx-xxxx" required>
 
       <label class="label">Card type *</label>
+<<<<<<< HEAD
 
       <select class="input form_input" required>
         <option value="" disabled selected>Select your option</option>
+=======
+      <select class="input form_input">
+>>>>>>> master
         <option>Visa</option>
         <option>MasterCard</option>
         <option>American Express</option>
@@ -38,7 +45,8 @@
         <option>Visa Electron</option>
       </select>
 
-      <label class="label">CVV <i class="fa fa-question-circle-o tooltip" aria-hidden="true">
+      <label class="label">CVV
+        <i class="fa fa-question-circle-o tooltip">
           <span class="tooltiptext">3 digit number on the back of the card</span>
         </i>
       </label>
@@ -49,8 +57,13 @@
 
       <label class="label">City, Zip Code *</label>
       <input type="text" class="input form_input" placeholder="London, SE12 8HU" required>
+<<<<<<< HEAD
       <p class='required_field'>* required field</p>
       <a href="success.html"><button class="submit_btn">Submit</button></a>
+=======
+
+    <button class="submit_btn"><a href="success.html">Submit</a></button>
+>>>>>>> master
     </form>
   </section>
   <script src="https://use.fontawesome.com/dab6567ebf.js"></script>

@@ -1,4 +1,4 @@
-@import 'variable';
+@import '../variable';
 
 .landing {
   background: url('../images/mountains.png') no-repeat center center fixed;
@@ -13,6 +13,16 @@
   margin-top: 30%;
   margin-bottom: 30%;
   font-weight: bold;
+}
+
+.email_label {
+    margin-right: 120px;
+    color: $white;
+}
+
+.password_label {
+  margin-right: 151px;
+  color: $white;
 }
 
 .user_input {

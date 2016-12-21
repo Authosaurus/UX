@@ -32,6 +32,45 @@ body {
   color: #808080;
   padding-left: 7%; }
 
+.navbar {
+  border-bottom: 1px solid #000;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; }
+  .navbar ul {
+    min-width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px; }
+    .navbar ul li {
+      height: 25px;
+      padding: 0px;
+      display: inline-block;
+      padding-top: 2%;
+      text-align: center; }
+      .navbar ul li a {
+        text-decoration: none;
+        color: #000;
+        transition: opacity 0.3s;
+        opacity: 1; }
+        .navbar ul li a:hover {
+          opacity: 0.5; }
+
+li:nth-child(1) {
+  min-width: 25%;
+  font-size: 1.5em; }
+
+li:nth-child(2) {
+  min-width: 45%; }
+
+li:nth-child(3) {
+  min-width: 25%; }
+
+.home-icon {
+  width: 22%; }
+
 .form_input {
   width: 60%;
   height: 25px;
@@ -89,6 +128,14 @@ body {
   margin-bottom: 30%;
   font-weight: bold; }
 
+.email_label {
+  margin-right: 120px;
+  color: #FFF; }
+
+.password_label {
+  margin-right: 151px;
+  color: #FFF; }
+
 .user_input {
   height: 40px;
   width: 60%;
@@ -106,6 +153,7 @@ body {
   margin-top: 20%;
   height: 40px;
   font-size: 1em; }
+
 
 .navbar {
   border-bottom: 1px solid #000;
@@ -146,6 +194,7 @@ li:nth-child(3) {
 
 th {
   font-weight: 200; }
+
 
 th:nth-child(1) {
   width: 29%; }
