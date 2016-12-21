@@ -144,6 +144,9 @@ li:nth-child(3) {
 .home-icon {
   width: 22%; }
 
+th {
+  font-weight: 200; }
+
 th:nth-child(1) {
   width: 29%; }
 
@@ -172,7 +175,7 @@ table {
   height: 2.3em;
   line-height: 2em; }
 
-.inner-table tr:nth-child(even) {
+.payment-table tr:nth-child(even) {
   background-color: #bbb; }
 
 .scrollit {

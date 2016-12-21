@@ -1,5 +1,8 @@
 @import 'variable';
 
+th {
+  font-weight: 200;
+}
 th:nth-child(1) {
   width:29%;
 }
@@ -35,9 +38,10 @@ table {
   line-height: 2em;
 }
 
-.inner-table tr:nth-child(even) {
+.payment-table tr:nth-child(even) {
   background-color: #bbb;
 }
+
 
 .scrollit {
   overflow:scroll;
